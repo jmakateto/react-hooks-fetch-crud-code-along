@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ShoppingList from "./ShoppingList";
-import Header from "./Header";
+import ShoppingList from "./ShoppingList"; // Correct import path
+import Header from "./Header"; // Correct import path
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
